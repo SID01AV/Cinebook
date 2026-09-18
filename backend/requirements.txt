@@ -1,0 +1,12 @@
+fastapi  # for the web framework
+uvicorn[standard]  # for running the application
+pydantic-settings  # for managing configuration
+sqlalchemy[asyncio]  # for the database ORM
+asyncpg  # actual PostgreSQL async driver
+alembic  # for the database migrations
+python-dotenv  # for the environment variables
+pytest  # to run tests
+pytest-asyncio  # to run async tests
+httpx  # to make HTTP requests in tests
+ruff  # for formatting and checking code quality
+mypy  # for the static type checker
